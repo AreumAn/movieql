@@ -1,4 +1,9 @@
-type Query {
+type Ted {
+  id: String!
   name: String!
-  age: Float!
+  age: Int!
+}
+
+type Query {
+  user: Ted!
 }

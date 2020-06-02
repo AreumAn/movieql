@@ -1,7 +1,12 @@
+const ted = {
+  id: "peaceB",
+  name: "Ted",
+  age: 25,
+};
+
 const resolvers = {
   Query: {
-    name: () => "Ted",
-    age: () => 30,
+    user: () => ted,
   },
 };
 
