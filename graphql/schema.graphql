@@ -1,9 +1,10 @@
-type Ted {
+type User {
   id: String!
   name: String!
   age: Int!
 }
 
 type Query {
-  user: Ted!
+  users: [User]!
+  user(id: Int!): User
 }
