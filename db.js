@@ -49,7 +49,7 @@ export let users = [
   },
 ];
 
-export const getUser = () => users;
+export const getUsers = () => users;
 
 export const getById = (id) => {
   const filteredUser = users.filter((user) => user.id === id);
