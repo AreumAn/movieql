@@ -66,3 +66,12 @@ export const addUser = (name, age, gender) => {
   users.push(newUser);
   return newUser;
 };
+
+export const deleteUser = (id) => {
+  const filteredUser = users.filter((user) => user.id !== id);
+  if (users.length > filteredUser.length) {
+    users = filteredUser;
+    return true;
+  }
+  return false;
+};

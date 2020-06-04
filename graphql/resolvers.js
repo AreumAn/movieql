@@ -1,4 +1,4 @@
-import { getUsers, getById, addUser } from "../db";
+import { getUsers, getById, addUser, deleteUser } from "../db";
 
 const resolvers = {
   Query: {
@@ -7,6 +7,7 @@ const resolvers = {
   },
   Mutation: {
     addUser: (_, { name, age, gender }) => addUser(name, age, gender),
+    deleteUser: (_, { id }) => deleteUser(id),
   },
 };
 
