@@ -10,6 +10,7 @@ Movie API with Graphql
   - [Set up](#set-up)
     - [graphQL](#graphql)
     - [babel-node](#babel-node)
+  - [reference](#reference)
 
 ## Intro
 
@@ -86,3 +87,7 @@ yarn global add babel-cli --ignore-engines
 ```
 yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ```
+
+## reference
+
+- [GraphQL로 영화 API 만들기](https://academy.nomadcoders.co/courses/enrolled/357405)
