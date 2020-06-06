@@ -10,6 +10,7 @@ Movie API with Graphql
   - [Set up](#set-up)
     - [graphQL](#graphql)
     - [babel-node](#babel-node)
+  - [Wrapping a Rest api with GraphQL](#wrapping-a-rest-api-with-graphql)
   - [reference](#reference)
 
 ## Intro
@@ -87,6 +88,17 @@ yarn global add babel-cli --ignore-engines
 ```
 yarn add babel-cli babel-preset-env babel-preset-stage-3 --dev
 ```
+
+## Wrapping a Rest api with GraphQL
+
+- https://yts.mx/api
+- https://yts.mx/api/v2/list_movies.json
+
+- install node-fetch
+
+  ```
+  yarn add node-fetch
+  ```
 
 ## reference
 
