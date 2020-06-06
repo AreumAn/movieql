@@ -1,16 +1,12 @@
-type User {
-  id: String!
-  name: String!
-  age: Int!
-  gender: String!
+type Movie {
+  id: Int!
+  title: String!
+  rating: Float!
+  summary: String!
+  language: String!
+  medium_cover_image: String!
 }
 
 type Query {
-  users: [User]!
-  user(id: Int!): User
-}
-
-type Mutation {
-  addUser(name: String!, age: Int!, gender: String!): User!
-  deleteUser(id: Int!): Boolean
+  movies(limit: Int!, rating: Float!): [Movie]!
 }
